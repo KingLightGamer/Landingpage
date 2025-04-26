@@ -1,5 +1,11 @@
 body {
-    margin: 0;
+        height:100vh ; 
+        margin: 0;
+        overflow: hidden;
+        flex-direction: column;
+    display: flex;
+    
+    
     
 }
 
@@ -8,6 +14,7 @@ body {
     color: white;
     padding-left:200px ;
     padding-right: 200px;
+   
 
 }
 .links {
@@ -15,13 +22,38 @@ body {
     justify-content: space-between;
     padding: 10px;
     align-items: center;
-
+padding: 0;
 
 }
 .logo {
     font-size: 20px;
     font-weight: bold;
+   padding: 0;
 }
+.Title {
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
+img {
+    width: 300px;
+    height: auto;
+    padding: 30px;
+}
+.text {
+    padding-bottom: 20px;
+}
+button {
+    cursor: pointer;
+    padding: 7px 30px;
+    border-radius: 8px;
+    background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  }
+
 
  a{   text-decoration: none;
     color: white;
@@ -29,7 +61,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-gap: 10px;
+gap: 30px;
 
 
 }
