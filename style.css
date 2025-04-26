@@ -4,9 +4,7 @@ body {
         overflow: hidden;
         flex-direction: column;
     display: flex;
-    
-    
-    
+
 }
 
 .Header {
@@ -63,5 +61,36 @@ ul {
     display: flex;
 gap: 30px;
 
+}
+.main {
+    
+    margin: 0;
+
+}
+h2 {
+    text-align: center;
+    
+}
+.cards img  {
+    border: 2px;
+    border-radius: 1px;
+    border-color: lightskyblue;
+    
+}
+.cards {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    
+
+
+}
+.infos {
+    padding: 200px;
+ padding-top: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
 
 }
