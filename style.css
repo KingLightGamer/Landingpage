@@ -8,7 +8,7 @@ body {
 }
 
 .Header {
-    background-color: rgb(49, 49, 68);
+    background-color: rgb(42, 42, 51);
     color: white;
     padding-left:200px ;
     padding-right: 200px;
@@ -118,6 +118,49 @@ h8 {
     font-weight: bold;
     text-align: right;
 }
+.signup {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 200px;
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+.signup2 {
+    background-color: royalblue;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    width: 600px;
+height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    gap: 50px;
+}
+.two {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.two p {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.one button {
+    border: 1px solid white;
+}
+
+
+
  a{   text-decoration: none;
     color: white;
 }
@@ -125,4 +168,14 @@ ul {
     list-style: none;
     display: flex;
 gap: 30px;
+}
+.footer {
+    background-color: rgb(42, 42, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    color: white;
 }
