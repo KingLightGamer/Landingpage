@@ -53,6 +53,71 @@ button {
   }
 
 
+
+.main {
+    
+    margin: 0;
+    
+
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+    
+}
+.title2 {
+     text-align: center;
+    
+    margin: 0 auto;
+     
+}
+
+
+   
+
+.infos {
+    
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 200px;
+padding-top: 0;
+padding-bottom: 100px;
+ gap: 50px;
+ margin-top: 20px;
+}
+.cards {
+   
+width: 150px;
+
+}
+.cards p {
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: lightgrey;
+
+align-items: center;
+justify-content: center;
+padding: 200px;
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+.quote p {
+    font-style: italic;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+h8 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
  a{   text-decoration: none;
     color: white;
 }
@@ -60,38 +125,4 @@ ul {
     list-style: none;
     display: flex;
 gap: 30px;
-
-}
-.main {
-    
-    margin: 0;
-    padding-left:200px ;
-    padding-right: 200px;
-   
-
-}
-h2 {
-    text-align: center;
-    
-}
-
-.cards {
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    
-
-
-}
-.infos {
-    
- padding-bottom: 200px;
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 40px;
-
-}
-.quote {
-
 }
